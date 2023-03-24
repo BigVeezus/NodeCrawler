@@ -1,0 +1,20 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^21.1.1",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
