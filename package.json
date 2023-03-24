@@ -2,6 +2,7 @@
   "name": "node-crawler",
   "version": "1.0.0",
   "description": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "jsdom": "^21.1.1",
+    "node-fetch": "^2.6.9",
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
