@@ -1,14 +1,23 @@
+const fs = require("fs");
+
 // printReport takes a dictionary of pages and prints them
 // to the console in a human-friendly way
 function printReport(pages) {
-  console.log("==========");
-  console.log("REPORT");
-  console.log("==========");
+  console.log("================================");
+  console.log("File was created successfully!");
+  console.log(
+    "Open 'Report.txt' file in this directory to view internal links"
+  );
+  console.log("================================");
   const sortedPages = sortPages(pages);
   for (const sortedPage of sortedPages) {
     const url = sortedPage[0];
     const count = sortedPage[1];
-    console.log(`Found ${count} internal links to ${url}`);
+    const data = `\nFound ${count} internal links to ${url}`;
+
+    fs.writeFile("Report.txt", data, { flag: "a+" }, function (err) {
+      if (err) throw err;
+    });
   }
 }
 

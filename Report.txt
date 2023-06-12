@@ -1,0 +1,9 @@
+
+Found 12 internal links to check-inn-git-main-bigveezus.vercel.app/hotels
+Found 11 internal links to check-inn-git-main-bigveezus.vercel.app/register
+Found 9 internal links to check-inn-git-main-bigveezus.vercel.app/login
+Found 8 internal links to check-inn-git-main-bigveezus.vercel.app
+Found 1 internal links to check-inn-git-main-bigveezus.vercel.app/hotels/new
+Found 1 internal links to check-inn-git-main-bigveezus.vercel.app/hotels/6418c507286a9c6d7775b177
+Found 1 internal links to check-inn-git-main-bigveezus.vercel.app/hotels/64198f360196bdce8cf437bc
+Found 1 internal links to check-inn-git-main-bigveezus.vercel.app/hotels/64199fd158126bed9a816ed6
